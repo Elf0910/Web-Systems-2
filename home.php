@@ -4,5 +4,6 @@
 <div class='container'>
 
     <p> Hello </p>
+    <p> this is home! </p>
 
 <?php include 'templates/footer.php';?>
