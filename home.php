@@ -3,7 +3,6 @@
 
 <div class='container'>
 
-    <p> Hello </p>
-    <p> this is home! </p>
+    <p class="home">Hello! Welcome to my <span class="color-1">website</span>!</p>
 
 <?php include 'templates/footer.php';?>
