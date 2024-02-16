@@ -159,7 +159,7 @@
             <br>Output:<br>';
 
             $userInput = "year";
-            $chatbotAns = ($userInput == "year") ? "It is 2024" : "???";
+            $chatbotAns = ($userInput == "year") ? "It is 2024" : "I have no clue";
             echo "Chatbot: " . $chatbotAns; 
     ?>
 <?php include 'templates/footer.php';?>
