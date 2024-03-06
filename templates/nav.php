@@ -20,6 +20,7 @@
               <li><a href="activity2.php">Activity 2</a></li>
               <li><a href="activity3.php">Activity 3</a></li>
               <li><a href="activity4.php">Activity 4</a></li>
+              <li><a href="activity5.php">Activity 5</a></li>
             </ul>
           </li>
           <li class="dropdown">

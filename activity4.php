@@ -39,7 +39,7 @@
     }</p></pre><br>
     <a href="passing_variables.php"><button class="demo">DEMO 1</button></a>
 
-    <br><br><br><h3>Problem 2</h3>
+    <br><br><br><hr><h3>Problem 2</h3>
     <p>Create a simple form that allows to input a message and counts the number of words in it. 
     The form submits the data to a PHP script using the GET method.</p>
     <h3 class="sol">Solution:</h3>
