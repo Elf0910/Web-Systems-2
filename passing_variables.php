@@ -12,11 +12,11 @@
 							<form method="get" action="handling_variables.php">
 								<div class="form-group">
 									<i class="input-icon uil uil-at"><span class="material-symbols-outlined">looks_one</span></i>
-									<input type="number" id="num1" name="num1" class="form-style" placeholder="Number 1"><br><br>
+									<input type="number" id="num1" name="num1" class="form-style" placeholder="Number 1" required><br><br>
 								</div>
 								<div class="form-group mt-2">
 									<i class="input-icon uil uil-at"><span class="material-symbols-outlined">looks_two</span></i>
-									<input type="number" id="num2" name="num2" class="form-style" placeholder="Number 2"><br><br>
+									<input type="number" id="num2" name="num2" class="form-style" placeholder="Number 2" required><br><br>
 								</div>
 								<input type="submit" id="submit1" value="SUBMIT">
                             </form>

@@ -12,7 +12,7 @@
 							<form method="get" action="count_handle_var.php">
 								<div class="form-group">
 									<i class="input-icon uil uil-at"><span class="material-symbols-outlined">mail</span></i>
-									<input type="text" id="message" name="message" class="form-style" placeholder="Your message"><br><br>
+									<input type="text" id="message" name="message" class="form-style" placeholder="Your message" required><br><br>
 								</div>
 								<input type="submit" id="submit1" value="SUBMIT">
                             </form>

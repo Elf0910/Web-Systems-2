@@ -62,7 +62,7 @@ for ($i = 5; $i > 0; $i--) {
         
     <!-- Problem 3 -->
     <hr><h3>Problem 3</h3>
-    <p>Create a script using a for loop to add all the integers between 0 and 10 and display the total</p>
+    <p>Create a script using a for loop to add all the integers between 0 and 10 and display the total. The range should be user inputted.</p>
     <h3 class="sol">Solution:</h3>
     <pre>if (isset($_GET["num1"])) {
     $user = $_GET["num1"];

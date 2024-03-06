@@ -12,7 +12,7 @@
 							<form method="get" action="activity5_p3-handle.php">
 								<div class="form-group">
 									<i class="input-icon uil uil-at"><span class="material-symbols-outlined">looks_one</span></i>
-									<input type="number" id="num1" name="num1" class="form-style" placeholder="Input number"><br><br>
+									<input type="number" id="num1" name="num1" class="form-style" placeholder="Input number" required><br><br>
 								</div>
 								<input type="submit" id="submit1" value="SUBMIT">
                             </form>
