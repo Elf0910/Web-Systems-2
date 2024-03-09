@@ -9,19 +9,23 @@
     <p>Write a PHP script that will output the following using loop</p>
     <p>* <br>* * <br>* * *<br>* * * *<br>* * * * *</p>
     <h3 class="sol">Solution:</h3>
-    <pre><p>$asterisk = "* ";
-for ($i = 0; $i < 5; $i++) {
-    echo $asterisk;
-    $asterisk .= "* ";
-    echo "< br>";
+    <pre><p>$i = 0;
+$a = "* ";
+while ($i < 5) {
+    echo $a;
+    echo "&ltbr>";
+    $a = $a . "* ";
+    $i++;
 }</p></pre><br>
     <p>Output:</p>
     <?php
-        $asterisk = "* ";
-        for ($i = 0; $i < 5; $i++) {
-            echo $asterisk;
-            $asterisk .= "* ";
+        $i = 0;
+        $a = "* ";
+        while ($i < 5) {
+            echo $a;
             echo "<br>";
+            $a = $a . "* ";
+            $i++;
         }
     ?>
 
@@ -34,13 +38,13 @@ for ($i = 0; $i < 5; $i++) {
     for ($j = 0; $j <= $i; $j++) {
         echo "* ";
     }
-    echo "< br>";
+    echo "&ltbr>";
 }
 for ($i = 5; $i > 0; $i--) {
     for ($j = 0; $j < $i; $j++) {
         echo "* ";
     }
-    echo "< br>";
+    echo "&ltbr>";
 }</p></pre><br>
     <p>Output:</p>
     <?php
@@ -61,7 +65,7 @@ for ($i = 5; $i > 0; $i--) {
     ?>
         
     <!-- Problem 3 -->
-    <hr><h3>Problem 3</h3>
+    <hr><h3 id="p3">Problem 3</h3>
     <p>Create a script using a for loop to add all the integers between 0 and 10 and display the total. The range should be user inputted.</p>
     <h3 class="sol">Solution:</h3>
     <pre>if (isset($_GET["num1"])) {
@@ -75,7 +79,7 @@ for ($i = 5; $i > 0; $i--) {
 }
 
 else {
-    echo"< p>Missing variable name parameter. Variable ‘num1’ does not exist.< /p>";
+    echo"&ltp>Missing variable name parameter. Variable ‘num1’ does not exist.&lt/p>";
 }</pre><br>
     <a href="activity5_p3.php"><button class="demo">DEMO 1</button></a><br><br>
 
@@ -83,24 +87,27 @@ else {
     <hr><h3>Problem 4</h3>
     <p>Write a PHP script that creates the following table (use for loops)</p>
     <h3 class="sol">Solution:</h3>
-    <pre>echo "< table border='1'>";
+    <pre>echo "&lttable id='multiplicationTable'>";
 for ($i = 1; $i <= 10; $i++) {
-    echo "< tr>";
+    echo "&lttr>";
     for ($j = $i; $j <= $i * 10; $j += $i) {
-        echo "< td> $j < /td>";
+        echo "&lttd> $j &lt/td>";
     }
-    echo "< br>";
-}</pre><br>
+    echo "&lt/tr>";
+}
+echo "&lt/table>";</pre><br>
     <p>Output:</p>
     <?php
 
-        echo "<table border='1'";
+        echo "<table id='multiplicationTable'>";
         for ($i = 1; $i <= 10; $i++) {
             echo "<tr>";
             for ($j = $i; $j <= $i * 10; $j += $i) {
                 echo "<td> $j </td>";
             }
+            echo "</tr>";
         }
+        echo "</table><br><br>";
     
     ?>
 

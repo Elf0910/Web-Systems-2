@@ -25,7 +25,7 @@
                                     echo"<p>Missing variable name parameter. Variable ‘num1’ does not exist.</p>";
                                 }
                             ?>
-                            <form method="get" action="activity5.php"><br>
+                            <form method="get" action="activity5.php#p3"><br>
                             <input type="submit" id="submit1" value="BACK">
 						</div>
 					</div>

@@ -26,7 +26,7 @@
                             }
                             
                             ?>
-                            <form method="get" action="activity4.php"><br>
+                            <form method="get" action="activity4.php#p1"><br>
                             <input type="submit" id="submit1" value="BACK">
 						</div>
 					</div>

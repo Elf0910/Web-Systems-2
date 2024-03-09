@@ -355,3 +355,10 @@ span {
 }
 
 /* End of Demo 1 */
+
+#multiplicationTable td {
+  text-align: center;
+  border: 2px solid white !important;
+  padding: 10px;
+  color: var(--softwhite);
+}
